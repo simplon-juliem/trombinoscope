@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background: url(http://tognella-architectes.com/imagesUp/produits/2582-1.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -5,6 +6,14 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
+=======
+ul li{
+     position:relative;float:left;
+     width:100px;height:100px;padding:10px;list-style:none;
+}
+/*permet de créer deux lignes*/
+ul li:nth-child(40n){clear:left;}
+>>>>>>> c8829fb9d2b23371f591fc712e4abbff1a292512
 
 ul li a{
      display:block;overflow:hidden;
@@ -16,20 +25,31 @@ ul li a{
 }
 
 ul li a:hover{
+<<<<<<< HEAD
+=======
+     position:absolute;
+>>>>>>> c8829fb9d2b23371f591fc712e4abbff1a292512
      width:200px;height:200px;
      margin-top:-56px;margin-left:-56px;
      z-index:100;
      border:6px solid rgba(0,0,0,0.7);
 }
 
+<<<<<<< HEAD
 /*dimension de l'image*/
 ul li a img{
      position:absolute;
      width:110px;height:100px;z-index:20;
+=======
+ul li a img{
+     position:absolute;
+     width:100px;height:100px;z-index:20;
+>>>>>>> c8829fb9d2b23371f591fc712e4abbff1a292512
      transition-property:width,height,z-index;
      transition-duration:0.4s;
 }
 
+<<<<<<< HEAD
 /* dimension de la souris */
 ul li a:hover img{
      width:250px;height:250px;
@@ -75,3 +95,9 @@ left: 20px;
 top:15px;
 border-radius: 15px;
 }
+=======
+ul li a:hover img{
+     width:200px;height:200px;
+     z-index:100;
+}
+>>>>>>> c8829fb9d2b23371f591fc712e4abbff1a292512
